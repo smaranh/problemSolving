@@ -12,12 +12,12 @@ class DFSNode {
     }
   
     depthFirstSearch(array) {
-        const queue = [this as DFSNode];
-		while (queue.length) {
-			let node = queue.shift();
-			array.push(node.name);
-			queue.unshift(...node.children);
-		}
-		return array;
+      const queue = [this as DFSNode];
+      while (queue.length) {
+        let node = queue.shift();
+        array.push(node.name);
+        queue.unshift(...node.children);
+      }
+      return array;
     }
 }
