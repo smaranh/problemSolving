@@ -1,0 +1,1 @@
+Implement a square root function for an input integer N which returns the square root of N. If the result is a fraction then return Math.floor(result);
